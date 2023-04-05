@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>眼花缭乱数字乐</title>
+  <style>
+    header{
+      text-align: center;
+    }
+    ul#digits{
+      width: 350px;
+      height: 104px;
+      padding: 0;
+      margin: 0 auto;
+    }
+    li{
+      float: left;
+      list-style-type: none;
+      width: 50px;
+      height: 50px;
+      margin: 0px 1px 1px 0px;
+      line-height: 50px;
+      background-color: indigo;
+      font-size: 24px;
+      text-align: center;
+      color: greenyellow;
+    }
+    li:hover{
+      cursor: pointer;
+    }
+    {
+      background-color: hotpink;
+    }
+    #seconds{ font-size: 35px;
+      font-weight: 1000;
+    }
+    #start{
+      background-color:lemonchiffon;
+      border: none;
+      color:fuchsia;
+      width: 150px;
+      height: 45px;
+      font-size: 30px;
+    }
+  </style>
+</head>
+<style>
+
+</style>
+<body>
+<header>
+  <h1>眼花缭乱数字乐</h1>
+</header>
+<article>
+  <ul id="digits">
+    <li id="item15" onclick="clickg();">15</li>
+    <li id="item13" onclick="clickd();">13</li>
+    <li id="item24" onclick="clickb();">24</li>
+    <li id="item23" onclick="clickv();">23</li>
+    <li id="item31" onclick="clickzt();">31</li>
+    <li id="item34" onclick="clickzi();">34</li>
+    <li id="item21" onclick="clickx();">21</li>
+    <li id="item25" onclick="clickn();">25</li>
+    <li id="item29" onclick="clickze();">29</li>
+    <li id="item36" onclick="clickzp();">36</li>
+    <li id="item11" onclick="clicka();">11</li>
+    <li id="item28" onclick="clickzw();">28</li>
+    <li id="item19" onclick="clickl();">19</li>
+    <li id="item4" onclick="clickr();">4</li>
+    <li id="item14" onclick="clickf();">14</li>
+    <li id="item3" onclick="clicke();">3</li>
+    <li id="item16" onclick="clickh();">16</li>
+    <li id="item2" onclick="clickw();">2</li>
+    <li id="item17" onclick="clickj();">17</li>
+    <li id="item26" onclick="clickm();">26</li>
+    <li id="item32" onclick="clickzy();">32</li>
+    <li id="item6" onclick="clicky();">6</li>
+    <li id="item35" onclick="clickzo();">35</li>
+    <li id="item8" onclick="clicki();">8</li>
+    <li id="item33" onclick="clickzu();">33</li>
+    <li id="item9" onclick="clicko();">9</li>
+    <li id="item30" onclick="clickzr();">30</li>
+    <li id="item20" onclick="clickz();">20</li>
+    <li id="item10" onclick="clickp();">10</li>
+    <li id="item22" onclick="clickc();">22</li>
+    <li id="item1" onclick="clickq();">1</li>
+    <li id="item5" onclick="clickt();">5</li>
+    <li id="item12" onclick="clicks();">12</li>
+    <li id="item7" onclick="clicku();">7</li>
+    <li id="item27" onclick="clickzq();">27</li>
+    <li id="item18" onclick="clickk();">18</li>
+    <input type="button" name="" id="start" value="开始游戏">
+    <span id="seconds">计时:0s</span>
+  </ul>
+</article>
+<script type="text/javascript">
+  var index=1;
+  var button1=document.getElementById("item1");
+  var button2=document.getElementById("item2");
+  var button3=document.getElementById("item3");
+  var button4=document.getElementById("item4");
+  var button5=document.getElementById("item5");
+  var button6=document.getElementById("item6");
+  var button7=document.getElementById("item7");
+  var button8=document.getElementById("item8");
+  var button9=document.getElementById("item9");
+  var button10=document.getElementById("item10");
+  var button11=document.getElementById("item11");
+  var button12=document.getElementById("item12");
+  var button13=document.getElementById("item13");
+  var button14=document.getElementById("item14");
+  var button15=document.getElementById("item15");
+  var button16=document.getElementById("item16");
+  var button17=document.getElementById("item17");
+  var button18=document.getElementById("item18");
+  var button19=document.getElementById("item19");
+  var button20=document.getElementById("item20");
+  var button21=document.getElementById("item21");
+  var button22=document.getElementById("item22");
+  var button23=document.getElementById("item23");
+  var button24=document.getElementById("item24");
+  var button25=document.getElementById("item25");
+  var button26=document.getElementById("item26");
+  var button27=document.getElementById("item27");
+  var button28=document.getElementById("item28");
+  var button29=document.getElementById("item29");
+  var button30=document.getElementById("item30");
+  var button31=document.getElementById("item31");
+  var button32=document.getElementById("item32");
+  var button33=document.getElementById("item33");
+  var button34=document.getElementById("item34");
+  var button35=document.getElementById("item35");
+  var button36=document.getElementById("item36");
+  console.log(button1);
+
+  function clickq(){
+    if (index==1){
+      index=index+1
+      button1.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickw(){
+    if (index==2){
+      index=index+1
+      button2.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicke(){
+    if (index==3){
+      index=index+1
+      button3.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickr(){
+    if (index==4){
+      index=index+1
+      button4.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickt(){
+    if (index==5){
+      index=index+1
+      button5.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicky(){
+    if (index==6){
+      index=index+1
+      button6.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicku(){
+    if (index==7){
+      index=index+1
+      button7.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicki(){
+    if (index==8){
+      index=index+1
+      button8.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicko(){
+    if (index==9){
+      index=index+1
+      button9.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickp(){
+    if (index==10){
+      index=index+1
+      button10.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicka(){
+    if (index==11){
+      index=index+1
+      button11.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clicks(){
+    if (index==12){
+      index=index+1
+      button12.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickd(){
+    if (index==13){
+      index=index+1
+      button13.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickf(){
+    if (index==14){
+      index=index+1
+      button14.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickg(){
+    if (index==15){
+      index=index+1
+      button15.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickh(){
+    if (index==16){
+      index=index+1
+      button16.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickj(){
+    if (index==17){
+      index=index+1
+      button17.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickk(){
+    if (index==18){
+      index=index+1
+      button18.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickl(){
+    if (index==19){
+      index=index+1
+      button19.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickz(){
+    if (index==20){
+      index=index+1
+      button20.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickx(){
+    if (index==21){
+      index=index+1
+      button21.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickc(){
+    if (index==22){
+      index=index+1
+      button22.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickv(){
+    if (index==23){
+      index=index+1
+      button23.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickb(){
+    if (index==24){
+      index=index+1
+      button24.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickn(){
+    if (index==25){
+      index=index+1
+      button25.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickm(){
+    if (index==26){
+      index=index+1
+      button26.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickzq(){
+    if (index==27){
+      index=index+1
+      button27.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzw(){
+    if (index==28){
+      index=index+1
+      button28.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickze(){
+    if (index==29){
+      index=index+1
+      button29.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzr(){
+    if (index==30){
+      index=index+1
+      button30.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzt(){
+    if (index==31){
+      index=index+1
+      button31.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzy(){
+    if (index==32){
+      index=index+1
+      button32.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzu(){
+    if (index==33){
+      index=index+1
+      button33.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzi(){
+    if (index==34){
+      index=index+1
+      button34.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }function clickzo(){
+    if (index==35){
+      index=index+1
+      button35.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+  function clickzp(){
+    if (index==36){
+      alert("您点击了最后一个,闯关成功!")
+      button36.style.visibility="hidden";
+    }else{
+      alert("闯关失败!")
+    }
+  }
+</script>
+</body>
+</html>
